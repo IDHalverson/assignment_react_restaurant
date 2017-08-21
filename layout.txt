@@ -14,15 +14,12 @@
 
         <div Menu Section >
 
-            <card Menu Item>
-
         <div Reviews Section >
 
-            <card Review>
 
         <div Photos Section >
 
-            <card Photo>
+
 
     <div Footer >
 

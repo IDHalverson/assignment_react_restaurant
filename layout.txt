@@ -1,0 +1,29 @@
+
+
+<div App >
+
+<div Layout >
+
+    <div Nav >
+
+    <div Main >
+
+        <div About Section >
+
+        <div Reservations Section >
+
+        <div Menu Section >
+
+            <card Menu Item>
+
+        <div Reviews Section >
+
+            <card Review>
+
+        <div Photos Section >
+
+            <card Photo>
+
+    <div Footer >
+
+        <div Contact>

@@ -1,22 +1,28 @@
 import React, { Component } from "react";
 import logo from "../../logo.svg";
 import "./App.css";
+import Header from '../header/Header';
 
 class App extends Component {
-  constructor
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      restaurantName: "Bob\'s Burgers and Shrimp",
+      headerPicture: "http://farm4.staticflickr.com/3020/2544649829_122226ec5e_z.jpg"
+    }
+  }
   render() {
+    const { restaurantName, headerPicture } = this.state;
+
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Header 
+        restaurantName={restaurantName}
+        headerPicture={headerPicture}
+       />
     );
   }
 }
 
 export default App;
+

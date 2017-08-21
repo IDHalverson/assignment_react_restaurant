@@ -9,6 +9,7 @@ const Menu = props =>
         <h4>
           {i.name}
         </h4>
+        <img src={i.img} /> 
         <h6>
           {i.description}
         </h6>

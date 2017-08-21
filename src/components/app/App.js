@@ -11,26 +11,32 @@ const props = {
   menuItems: [
     {
       name: "Shrimp",
+      img: "http://healthyrise.com/wp-content/uploads/2016/09/Shrimp-2.jpg",
       description: "Bob's classic shrimpy goodness.",
       price: 35
     },
     {
-      name: "Vegitarian Shrimp",
+      name: "Vegetarian Shrimp",
+      img: "http://vegetarian-plus.com/wp-content/uploads/2013/11/shrimp.jpg",
       description: "Bob's personal favorite...",
       price: 55
     },
     {
       name: "Jumbo Shrimpy Goodness",
+      img: "http://farm4.staticflickr.com/3020/2544649829_122226ec5e_z.jpg",
       description: "Your favorite shrimp... JUMBO SIZE",
       price: 11
     },
+
     {
       name: "Bob's secret shrimp",
+      img: "https://s-media-cache-ak0.pinimg.com/736x/8c/c9/63/8cc96362ca1fcf653b83b2d39f4c9f06--pie-crusts-fun-food.jpg",
       description: "Bob's 32,000-year old family secret...",
       price: 110
     },
     {
       name: "Burger-shaped shrimp",
+      img: "https://cdn2.i-scmp.com/sites/default/files/styles/980x551/public/2013/07/31/turtle-burger-l.jpg",
       description: "Pretty self-explanatory tbh",
       price: 300
     }

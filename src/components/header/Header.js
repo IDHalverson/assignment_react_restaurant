@@ -5,7 +5,10 @@ const Layout = props =>
   <header className="jumbotron center-block">
     <div className="image-div">
       <div>
-        <img src="https://images7.alphacoders.com/396/thumb-1920-396582.jpg" />
+        <img
+          className="header-img"
+          src="https://images7.alphacoders.com/396/thumb-1920-396582.jpg"
+        />
         <h1>
           {props.restaurantName}
         </h1>

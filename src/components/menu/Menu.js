@@ -2,9 +2,10 @@ import React from "react";
 import "./Menu.css";
 
 const Menu = props =>
-  <div>
+  <div className="row">
+    <h3 className="menu-div col-xs-8 col-xs-offset-2">MENU</h3>
     {props.menuItems.map(i =>
-      <div key={i.name}>
+      <div className="col-xs-4 items" key={i.name}>
         <h4>
           {i.name}
         </h4>

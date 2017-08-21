@@ -1,0 +1,21 @@
+.well {
+  padding: 50px;
+  font-size: 18px;
+  text-indent: 20px;
+}
+
+.items {
+  height: 200px;
+  text-align: center;
+}
+
+.items h6 {
+  font-size: 25px;
+}
+
+.menu-div {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 6em;
+}

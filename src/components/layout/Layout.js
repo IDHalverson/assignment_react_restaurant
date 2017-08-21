@@ -11,9 +11,14 @@ import "./Layout.css";
 
 const Layout = props => {
   return (
-    <div>
+    <div id="main">
+
       <Navbar navItems={props.navItems} restaurantName={props.restaurantName} />
-      <Header />
+
+      <section className="header">
+        <Header />
+      </section>
+      
       <About aboutText={props.aboutText} />
       <Menu menuItems={props.menuItems} />
       <Reservations />

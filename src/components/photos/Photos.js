@@ -8,6 +8,7 @@ const Photos = props =>
         <img src={p} />
       </div>
     )}
-  </div>;
+  </div>
 
 export default Photos;
+

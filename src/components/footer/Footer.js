@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = props =>
-  <footer>
+  <footer class="panel" id="Footer">
     <h6>
       {props.contactInfo.name}
     </h6>

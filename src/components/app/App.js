@@ -1,28 +1,22 @@
 import React, { Component } from "react";
 import logo from "../../logo.svg";
 import "./App.css";
-import Header from '../header/Header';
+import Layout from "../layout/Layout";
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      restaurantName: "Bob\'s Burgers and Shrimp",
-      headerPicture: "http://farm4.staticflickr.com/3020/2544649829_122226ec5e_z.jpg"
-    }
+      restaurantName: "Bob's Burgers and Shrimp",
+      headerPicture:
+        "http://farm4.staticflickr.com/3020/2544649829_122226ec5e_z.jpg",
+      navItems: ["About", "Reservations", "Menu", "Reviews", "Photos"]
+    };
   }
   render() {
-    const { restaurantName, headerPicture } = this.state;
-
-    return (
-      <Header 
-        restaurantName={restaurantName}
-        headerPicture={headerPicture}
-       />
-    );
+    return <Layout props={this.state} />;
   }
 }
 
 export default App;
-

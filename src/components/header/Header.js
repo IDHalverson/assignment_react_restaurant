@@ -1,11 +1,11 @@
 import React from 'react';
+import "./Header.css";
 
-const Layout = ({restaurantName, headerPicture}) => ( 
-	<header>
-		HEADER
-		name: {restaurantName}
-		<img src={headerPicture} />
-		
+const Layout = (props) => ( 
+	<header className="jumbotron">
+		<div className="container">
+			<img src="https://images7.alphacoders.com/396/thumb-1920-396582.jpg" />
+		</div>
   </header>	
 )
 

@@ -9,14 +9,19 @@ class App extends Component {
 
     this.state = {
       restaurantName: "Bob's Burgers and Shrimp",
-      headerPicture:
-        "http://farm4.staticflickr.com/3020/2544649829_122226ec5e_z.jpg",
       navItems: ["About", "Reservations", "Menu", "Reviews", "Photos"]
     };
   }
+
   render() {
-    return <Layout props={this.state} />;
+    return (
+      <Layout 
+        restaurantName={this.state.restaurantName}
+        navItems={this.state.navItems}
+      />
+    );
   }
 }
 
 export default App;
+

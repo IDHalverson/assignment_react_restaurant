@@ -1,0 +1,24 @@
+ul {
+	display: flex;
+	list-style: none;
+}
+
+ul li {
+	padding-top: 10px;
+	margin-right: 20px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid black;
+	width: 100%;
+	height: 60px;
+}
+
+.res-name {
+	margin-left: 20px;
+}
+
+

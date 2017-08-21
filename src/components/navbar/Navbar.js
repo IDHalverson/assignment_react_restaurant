@@ -1,13 +1,14 @@
 import React from "react";
+import "./Navbar.css";
 
-const Navbar = navItems => {
-  console.log(Array.isArray(navItems));
+const Navbar = props => {
   return (
-    <div>
+    <nav className="main-nav">
+    	<h4 className="res-name">{props.restaurantName}</h4>
       <ul>
-        {navItems.map(i => `<li>${i}</li>`)}
+        {props.navItems.map(item => <li key={item}>{item}</li>)}
       </ul>
-    </div>
+    </nav>
   );
 };
 

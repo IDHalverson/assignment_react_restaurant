@@ -3,10 +3,18 @@ import "./Navbar.css";
 
 const Navbar = props => {
   return (
-    <nav className="main-nav">
-    	<h4 className="res-name">{props.restaurantName}</h4>
+    <nav className="main-nav navbar">
+      <h4 className="res-name">
+        {props.restaurantName}
+      </h4>
       <ul>
-        {props.navItems.map(item => <li key={item}>{item}</li>)}
+        {props.navItems.map(item =>
+          <li key={item}>
+            <a>
+              {item}
+            </a>
+          </li>
+        )}
       </ul>
     </nav>
   );

@@ -9,18 +9,17 @@ import About from "../about/About";
 import Footer from "../footer/Footer";
 import "./Layout.css";
 
-
 const Layout = props => {
   return (
     <div>
-    	<Navbar navItems={props.navItems} restaurantName={props.restaurantName} />
-    	<Header />
-    	<About aboutText={props.aboutText} />
-    	<Menu />
-    	<Reservations />
-    	<Reviews />
-    	<Photos />
-    	<Footer />
+      <Navbar navItems={props.navItems} restaurantName={props.restaurantName} />
+      <Header />
+      <About aboutText={props.aboutText} />
+      <Menu menuItems={props.menuItems} />
+      <Reservations />
+      <Reviews reviews={props.reviews} />
+      <Photos photos={props.photos} />
+      <Footer contactInfo={props.contactInfo} />
     </div>
   );
 };
